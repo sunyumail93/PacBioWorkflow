@@ -70,7 +70,7 @@ PacbioGetAssembly.sh InputParameters1.txt MouseCombined
 
 ### 2, PacbioManualFilterByCAGE.sh
 
-This pipeline requires RefSeq annotation in refFlat format, CAGE peak data, and outputs from the previous pipeline.
+This pipeline requires RefSeq annotation (in refFlat format), CAGE peak data, and outputs from the previous pipeline.
 
 ```
 #Write the input file names in InputParameters2.txt file
@@ -85,7 +85,7 @@ PacbioManualFilterByCAGE.sh InputParameters2.txt MouseCombined
 
 ### 3, PacbioPASFiltering.sh
 
-This pipeline requires RefSeq annotation in refFlat format, CAGE peak data, and outputs from the previous pipelines.
+This pipeline requires RefSeq annotation (in refFlat format), CAGE peak data, and outputs from the previous pipelines.
 
 ```
 #Write the input file names in InputParameters3.txt file
