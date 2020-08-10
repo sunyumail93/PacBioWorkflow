@@ -50,7 +50,7 @@ All required files for mouse workflow can be found in ./PacBioData_Human, except
 
 The follwoing three workflows need to be run in the same directory (input files should also be in the same directory).
 
-Here, we use mouse mm10 as an example. For human, change the InputParameter files accordingly.
+Here, we use mouse mm10 as an example. For human, change the `InputParameters1.txt` file accordingly.
 
 ### 1, PacbioGetAssembly.sh
 
