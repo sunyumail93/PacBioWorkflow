@@ -12,7 +12,7 @@ If CAGE and PAS data supported, run all the three workflows for intact isoform a
 1, Download codes
 
 ```
-git clone https://github.com/LiLabZhaohua/PacBioWorkflow.git
+git clone https://github.com/sunyumail93/PacBioWorkflow.git
 ```
 
 1, Compile C++ scripts
