@@ -79,6 +79,6 @@ wc -l ${OutputPrefix}.Assembly.CAGECorrected.PASCorrected.Final.Sorted.gpd
 
 echo "Step 04, Final"
 awk 'BEGIN{OFS="\t"}{print $2,$3,$4,$5,$6,$7,$8,$9,$10,$11}' ${OutputPrefix}.Assembly.CAGECorrected.PASCorrected.Final.Sorted.gpd > ${OutputPrefix}.Assembly.CAGECorrected.PASCorrected.Final.Sorted.gpd.cut
-genePredToGtf file ${OutputPrefix}.Assembly.CAGECorrected.PASCorrected.Sorted.gpd.cut ${OutputPrefix}.Assembly.CAGECorrected.PASCorrected.Final.Sorted.gtf
+genePredToGtf file ${OutputPrefix}.Assembly.CAGECorrected.PASCorrected.Final.Sorted.gpd.cut ${OutputPrefix}.Assembly.CAGECorrected.PASCorrected.Final.Sorted.gtf
 
 fi
